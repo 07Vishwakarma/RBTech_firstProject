@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: repeating-linear-gradient(45deg, black, #3c3636bf 100px);
+    background-image: repeating-linear-gradient(45deg, black, rgba(60, 54, 54, 0.75) 100px);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-position: center;
+    background-size: 107px 108px;
+    background-attachment: fixed;
+}
+.main{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.main .one,.two,.three,.four,.five,.six{
+    width: 440px;
+    background-color: #1368ac;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* first card design start */
+.one .containt{
+    height: 100%;
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+
+.one .containt .logo{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 33px; */
+}
+.one .containt .logo .logocontainer{
+    height: 130px;
+    width: 130px;
+    border: 5px solid #1368ac;
+    border-radius: 100px; 
+    padding: 17px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.one .containt .logo .logocontainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;   
+    /* padding: 22px; */
+}
+.toplef{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    /* border: 2px solid black; */
+    rotate: -27deg;
+    top: -49px;
+    left: -99px;
+    background-color: #1368ac;
+}
+.bottomright{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    /* border: 2px solid black; */
+    rotate: -27deg;
+    bottom: -49px;
+    right: -99px;
+    background-color: #1368ac;
+}
+.eyeicon{
+    margin-top: 0;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.eyeicon .eyecontainer i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eyeicon .eyecontainer i,h4{
+    /* display: block; */
+    font-size: 12px;
+}
+.eyeicon .eyecontainer{
+    padding: 3px 12px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+.eyeicon .eyecontainer h4{
+font-family: sans-serif
+}
+.name_product{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Montserrat sans-serif;
+    font-size: 22px; 
+    font-weight: 400;
+}
+.name_product b{
+
+    font-size:17px;
+    color: rgb(55, 49, 48);
+}
+.name_product hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 3px;
+    width: 40%;
+    border-radius: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_icons{
+    height: 45px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.contact_icons .icons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contact_icons .icons .iconcontainer i{
+    font-size: 18px;
+    background-color: #1368ac;
+    border-radius:50% ;
+    padding: 9px;
+    color:white;
+}
+
+.one .containt .youtube{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.one .containt .youtube a{
+    text-decoration: none;
+    height: 40px;
+    width: 60px;
+    /* border: 2px solid black; */
+    /* background-color: red; */
+}
+.one .containt .youtube a i{
+    color: red;
+    font-size: 38px;
+    /* border: 1px solid white; */
+}
+
+.one .containt .sidecontact{
+    height: 230px;
+    width: 59px;
+    background-color: #1368ac;
+    /* border-radius: 0px 45px 20px 0px; */
+    transform: skewY(45px);
+}
+.i_sidecontact{
+    height:  57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.i_sidecontact i{
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidecontact hr{
+    height: 2px;
+    background-color: white;
+    width: 65%;
+    margin-left: auto;   
+}
+.contact_combiner{
+    display: flex;
+    align-items: center;
+}
+.contact_container .num1,.num2,.email,.address{
+    height:  57px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+/* contact form start  */
+.formcontact{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 18px;
+}
+.formcontact .oneform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.formcontact .oneform .form input{
+    padding: 10px 10px;
+}
+.formcontact .oneform .whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+.formcontact .oneform .whatsapp i{
+    margin-right: 9px;
+}
+/* contact form end */
+/* first card design end */
+
+
+/* second card design start */
+.formcontact .twoform{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.formcontact .twoform .save,.share{
+    border: 2px solid black;
+    width: 45%;
+    height: 100%;
+    /* padding: 5px 10px; */
+    margin: 0px 5px;
+    background-color: #2e2c41;
+    color: white;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.main .two{
+    margin-top: 20px;
+}
+.two .containerTwo{
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.two .containerTwo h3{
+    font-size: 22px;
+    color: #1368ac;
+    text-align: center;
+}
+.two .containerTwo hr{
+    height: 3px;
+    background-color: #1368ac;
+}
+.two .containerTwo .img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two .containerTwo .floatleftbottom{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    rotate: -27deg;
+    bottom: -51px;
+    right: -99px;
+    background-color: #1368ac;
+}
+
+/* second card design end */
+
+/* third card design start here */
+.main .three{
+    margin-top: 20px;
+}
+.three .threecontainer{
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+}
+.three .threecontainer h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1368ac;
+}
+.three .threecontainer hr{
+    height: 4px;
+    width: 29%;
+    background-color: #1368ac;
+    margin-left: auto;
+    margin-right: auto;
+}
+.three .threecontainer .para{
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.three .threecontainer .floatleftbottom{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    rotate: -27deg;
+    bottom: -51px;
+    right: -99px;
+    background-color: #1368ac;
+}
+/* third card design end here */
+
+/* fourth card design start here */
+.main .four{
+    margin-top: 20px;
+}
+.main .four .fourthcontainer{
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main .four .fourthcontainer h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1368ac;
+}
+.main .four .fourthcontainer hr{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    height: 4px;
+    width: 49%;
+    background-color: #1368ac;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .four .fourthcontainer .youtubevideo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main .four .fourthcontainer .youtubevideo iframe{
+    height: 200px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.main .four .fourthcontainer .floatleftbottom{
+    position: absolute;
+    height: 100px;
+    width: 290px;
+    rotate: -27deg;
+    bottom: -51px;
+    right: -99px;
+    background-color: #1368ac;
+}
+/* fourth card design ends here */
+
+/* fifth card design start here */
+.main .five{
+    margin-top: 20px;
+}
+.main .five .fifthcontainer{
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .five .fifthcontainer > h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1368ac;
+}
+.main .five .fifthcontainer hr{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    height: 4px;
+    width: 49%;
+    background-color: #1368ac;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .five .fifthcontainer .card{
+    padding: 20px 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.main .five .fifthcontainer .card >h3{
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.main .five .fifthcontainer .card img{
+    height: 280px;
+    width: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    transition: 1s ease-in-out;
+}
+.main .five .fifthcontainer .card:hover img{
+    /* height: 350px;
+    width: 350px; */
+    transform: scale(1.6);
+    object-fit: cover;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    
+}
+.main .five .fifthcontainer .card button{
+    padding: 9px 6px;
+    border-radius: 4px;
+    background-color: #FF5722;
+    color: white;
+    margin-top: 11px;
+    border: none;
+    outline: none;
+}
+/* fifth card design ends here */
+
+/* sixth card design start here */
+.main .six{
+    margin-top: 20px;
+}
+.main .six .sixthcontainer{
+    width: 404px;
+    background-color: white;
+    margin-left:18px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    position: relative;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .six .sixthcontainer h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1368ac;
+}
+
+.main .six .sixthcontainer hr{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    height: 4px;
+    width: 39%;
+    background-color: #1368ac;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .six .sixthcontainer form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .six .sixthcontainer form input:not(#submit),textarea{
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(243, 201, 75);
+    width: 80%;
+    background-color: rgb(255, 241, 198);
+    /* outline: none; */
+    font-size: 15px;
+}
+
+.main .six .sixthcontainer form #submit{
+    padding: 12px 10px;
+    border-radius: 6px;
+    width: 80%;
+    color: white;
+    background-color: #2196F3;
+    outline: none;
+    font-size: 21px;
+    border: none;
+}
+.main .six .sixthcontainer .create_card_btn{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 9px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* sixth card design end here */
+
+/* navigation bar */
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1368ac;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    
+    font-family: sans-serif;
+}
+.nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.nav div a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    transition: 3s ease-in-out;
+    
+}
+
+.nav div i{
+    display: block;
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+.nav div p{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* responsive design start here */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav{
+        width: 768px;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    .nav div{
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    /* nav bar  */
+    .nav{
+        width: 100%;
+        overflow: auto;
+    }
+    .nav div{
+        
+        width: 100%;
+        /* overflow-x:scroll; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-around; */
+        flex-direction:column;
+        font-size: 16px;
+    }
+    .nav div a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        transition: 3s ease-in-out;
+        
+    }
+    .nav div i{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    .nav div p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+/* for extra small mobile size */
+
+@media only screen and (max-width: 480px) 
+{
+    /* For mobile phones: */
+    
+.main{
+    width: 440px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.main .one,.two,.three,.four,.five,.six{
+    width: 100%;
+    background-color: #1368ac;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* nav bar  */
+    .nav{
+        width: 480px;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    .nav div{
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .nav div a{
+        width: 100%;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction:row; */
+        transition: 3s ease-in-out;
+        
+    }
+    .nav div i{
+        display: block;
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    .nav div p{
+        font-size: 9px;
+        text-align: center;
+    }
+}
+/* responsive design ends here */
